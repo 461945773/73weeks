@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+	color: white;
+}
+img {} #button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 85%;
+    top: 40%;
+}
+.close {
+    background: url("image/button.png")-8px -14px no-repeat;
+}
+.open {
+    background: url("image/button.png")-55px -14px no-repeat;
+}
+.close:hover {
+    background: url("image/button.png")-55px -14px no-repeat;
+}
+.open:hover {
+    background: url("image/button.png")-8px -14px no-repeat;
+}
+#content {
+    width: 648px;
+    height: 315px;
+    position: absolute;
+    left: 26%;
+    top: 19%;
+}
+.TV-changing {
+    background: black;
+}
+.TV-closed {
+    background: darkgray;
+}
+.TV-on {
+    background: white;
+}
+#channelId {
+    text-indent: 1em;
+    color: red;
+    font-weight: bold;
+}
+#channel {
+    text-indent: 0.1em;
+    font-family: TinyTube42411;
+    font-size: 35px;
+    position: absolute;
+    z-index: 1000;
+	display: none;
+}
+#nosign{
+	display: none;
+}
+#contain {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    font-family: "华文行楷";
+    left: 20px;
+    top: 40px;
+    border: 2px dashed darkgray;
+    display: none;
+    font-size: 18px;
+    text-shadow: 0px 1px 0px gray;
+    text-indent: 2em;
+	text-decoration:blink;
+}
+#contain h2 {
+    text-indent: 0em;
+    text-align: center;
+}
+#enter {
+	display: none;
+}
+
+.tlt {
+	margin-top: 100px;
+}
