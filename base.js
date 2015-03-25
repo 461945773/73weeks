@@ -7,12 +7,12 @@ function TvOpen() {
 		Enter();
 	}, 1000);
 }
-function TvClosed() {
-    document.getElementById("button").setAttribute("class", "close");
-    document.getElementById("content").setAttribute("class", "TV-closed");
-    document.getElementById("channel").style.display = "none";
-    document.getElementById("nosign").style.display = "none";
-}
+//function TvClosed() {
+//    document.getElementById("button").setAttribute("class", "close");
+//    document.getElementById("content").setAttribute("class", "TV-closed");
+//    document.getElementById("channel").style.display = "none";
+//    document.getElementById("nosign").style.display = "none";
+//}
 
 function ButtonClick() {
     if (document.getElementById("button").className == "close") {
