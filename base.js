@@ -5,7 +5,7 @@ function TvOpen() {
     document.getElementById("nosign").style.display = "block";
     setTimeout(function(){
 		Enter();
-	}, 1000);
+	}, 5000);
 }
 //function TvClosed() {
 //    document.getElementById("button").setAttribute("class", "close");
