@@ -2,10 +2,12 @@ function TvOpen() {
     document.getElementById("button").setAttribute("class", "open");
     document.getElementById("content").setAttribute("class", "TV-on");
     document.getElementById("channel").style.display = "block";
-    document.getElementById("nosign").style.display = "block";
-    setTimeout(function(){
-		Enter();
-	}, 5000);
+    setTimeout(function() {
+        Love();
+    }, 100);
+    setTimeout(function() {
+        Enter();
+    }, 8290);
 }
 //function TvClosed() {
 //    document.getElementById("button").setAttribute("class", "close");
@@ -22,7 +24,13 @@ function ButtonClick() {
     }
 }
 
+function Love() {
+    document.getElementById("nosign").style.display = "none";
+    document.getElementById("love").style.display = "block";
+}
+
 function Enter() {
+    document.getElementById("love").style.display = "none";
     document.getElementById("nosign").style.display = "none";
     document.getElementById("content").setAttribute("class", "TV-changing");
     document.getElementById("enter").style.display = "block";
